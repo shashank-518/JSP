@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert document</title>
+</head>
+<body>
+    <form action="detail.jsp" method="post">
+        <button type="submit">Show Details</button>
+    </form>
+
+    <hr>
+
+    <form action="add.jsp" method="post">
+        <h1>Enter detail of the Student</h1>
+
+        <label for="id">ID</label>
+        <input type="text" name = "num">
+
+        <br><br>
+
+        <label for= "name">NAME</label>
+        <input type="text" name="text">
+
+        <br><br>
+
+        <label for="GRade">GRADE</label>
+        <input type="text" name="grade">
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+
+
+    <hr>
+
+    <form action="delete.jsp" method="post">
+        <h1>Enter the id you want to delete</h1>
+
+        <label for="ID">ID</label>
+        <input type="text" name="id" >
+
+        <button type="submit">Delete</button>
+
+
+    </form>
+
+    <hr>
+
+    <form action="update.jsp" method="post">
+        <h1>Enter the id you want to Update</h1>
+
+        <label for="ID">ID</label>
+        <input type="text" name="id" >
+
+        <h1>Enter the new data you wantt to update</h1>
+
+        <label for="name">Username:</label>
+        <input type="text" name = "text">
+
+        <button type="submit">Update</button>
+
+
+    </form>
+
+
+</body>
+</html>
